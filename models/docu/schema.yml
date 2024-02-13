@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: public
+    description: ""
+    database: new_db
+    schema: public
+    tables:
+      - name: doc_table
+        description: table for doc
+        columns:
+          - name: sample_col
+            description: sample_col
+
+

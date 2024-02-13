@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: public
+    description: ""
+    database: new_db
+    schema: public
+    tables:
+      - name: new_table
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: name
+            description: Name in new_table
+
